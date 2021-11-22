@@ -14,3 +14,5 @@ with open("./serializedFile", "rb") as fd:
     my_list.ParseFromString(fd.read())
 
 print(my_list)
+
+###
